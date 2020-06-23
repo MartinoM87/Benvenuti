@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home {
+  width: 100%;
+  margin-top: 80px;
+  text-align: center;
+  animation: blink 1.5s step-start 0s infinite;   /*p lampegg.*/
+  color: #000000;
+  font-size: 110px;
+  font-weight: bold;
+}
+
+@keyframes blink {     /*p lampeggiante*/
+  0% { opacity: 1.0;}
+  50% { opacity: 0.0;}
+  100% { opacity: 1.0;}
+}
+
+.btn {     /*barra menu*/
+    text-align: right;
+    padding: 10px 0px;
+    margin-top: 30px;
+    margin-left: 250px;
+    margin-right: 150px;
+    font-weight: bold;
+  }
+
+    /*rimuove sottolineature e colore del link href*/
+.menuBar a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+.menuBar>li {
+    display: inline-block;
+    font-size: 25px;
+    width: 150px;
+    color: #000000;
+    margin-left: 10px;
+    padding: 10px 0px;
+    transition: .4s;
+    text-align: center;
+  }
+
+  .whiteText {
+    color: #00BFFF;  /*marrone*/
+}
+
+h1 {
+  display: block;
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: center;
+  color: #000000;
+  margin-top: 100px;
+}
+
+p1 {
+  display: block;
+  font-size: 30px;
+  text-align: center;
+  color: #000000;
+}
+
+p2 {
+  display: block;
+  font-size: 30px;
+  text-align: center;
+  color: #000000;
+}
+
+.parag {
+  font-size: 30px;
+  text-align: center;
+  margin: 50px 30px 50px 30px;
+  font-weight: bold;
+}
